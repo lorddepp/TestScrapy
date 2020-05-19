@@ -2,7 +2,7 @@
 import scrapy
 from FirstScrapy.items import FirstscrapyItem
 from selenium import webdriver
-# 网易新闻爬取
+
 class TestscrapySpider(scrapy.Spider):
     name = 'testscrapy'
     # allowed_domains = ['www.xxx.com']
